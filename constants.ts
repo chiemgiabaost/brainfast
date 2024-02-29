@@ -1,3 +1,5 @@
+import { ToolItemProps } from "./components/dashboard/tool-items";
+
 export const MAX_FREE_COUNTS = 5;
 export const THEME_MODES = [
     {value: "light",
@@ -7,7 +9,7 @@ export const THEME_MODES = [
     label: "Dark"
     }
 ];
-export const TOOLS = [
+export const TOOLS: ToolItemProps[]= [
     {
         title: "Conversation",
         icon: "/icons/conversation.svg",

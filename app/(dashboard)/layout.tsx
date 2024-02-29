@@ -25,7 +25,7 @@ const DashboardLayout = (props: { children: React.ReactNode }) => {
             "lg:block"
           )}
         />
-        <UpgradeProModal isProPlan={isProPlan} />
+        <UpgradeProModal   />
         <div className={cn("bg-background h-[calc(100vh-56px)]","lg:rounded-3xl lg:p-7")}>{props.children}</div>
       </main>
     </div>

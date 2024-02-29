@@ -1,3 +1,4 @@
+"use client"
 import React, {useState} from 'react'
 import { Button } from './ui/button';
 import { Sparkles } from 'lucide-react';
@@ -26,7 +27,7 @@ const SubscriptionButton: React.FC<SubscriptionButtonProps>= ({className, isPro}
     <div className={className}>
         <Button
         variant="outline" size="lg" 
-        disabled={loading} onClick={()=>{}}
+        disabled={loading} onClick={handleSubscription}
         className={cn("text-white w-full font-semibold border-none gradient-btn", "hover:text-white")}>
             <span>{isPro? "Manage Subscription" : "Upgrade to Pro"}</span>
             <Sparkles />
