@@ -1,6 +1,6 @@
 import { ToolItemProps } from "./components/dashboard/tool-items";
 
-export const MAX_FREE_COUNTS = 5;
+export const MAX_FREE_COUNTS = 100;
 export const THEME_MODES = [
     {value: "light",
     label: "Light"
@@ -54,3 +54,5 @@ export const NAVIGATION = [
     slug: "dashboard"},
     ...TOOLS
 ]
+
+export const DAY_IN_MS = 86_400_000;
