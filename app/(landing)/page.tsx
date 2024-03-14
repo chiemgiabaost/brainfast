@@ -1,8 +1,16 @@
+import Hero from '@/components/landing/hero';
 import React from 'react'
-
+import Feature from '@/components/landing/feature';
 const LandingPage = () => {
   return (
-    <div>Landing Page</div>
+    <div className='h-full w-full'>
+      <Hero>
+
+      </Hero>
+      <Feature>
+        
+      </Feature>
+    </div>
   )
 }
 
