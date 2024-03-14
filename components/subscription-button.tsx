@@ -18,7 +18,7 @@ const SubscriptionButton: React.FC<SubscriptionButtonProps> = ({ isPro }) => {
   const handleSubcribe = async () => {
     try {
       setLoading(true);
-      const { data } = await axios.get("../app/api/stripe/route");
+      const { data } = await axios.get("/api/stripe");
       location.href = data.url;
     } catch (error) {
       console.log(error);
