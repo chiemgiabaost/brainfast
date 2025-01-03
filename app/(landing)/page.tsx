@@ -4,9 +4,8 @@ import Feature from '@/components/landing/feature';
 const LandingPage = () => {
   return (
     <div className='h-full w-full'>
-      <Hero>
+      <Hero/>
 
-      </Hero>
 
     </div>
   )

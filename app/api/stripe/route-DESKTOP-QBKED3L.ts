@@ -19,11 +19,11 @@ export async function GET(){
         })
 
         const dashboardUrl = absoluteUrl("/dashboard")
-        if ( userSubscription?.stripeCustomerId){
-            const stripeSession = await stripe.BillingPortal.sessions.create({
-                customer: user
-            })
-        }
+        // if ( userSubscription?.stripeCustomerId){
+        //     const stripeSession = await stripe.BillingPortal.sessions.create({
+        //         customer: user
+        //     })
+        // }
     }
     catch (error){
         return new NextResponse("Something went wrong", {status: 500})
