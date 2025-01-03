@@ -8,6 +8,7 @@ const configuaration = {
 };
 
 const openai= new OpenAI(configuaration)
+
 export async function POST(req: Request){
     try{
         const {userId} = auth();
