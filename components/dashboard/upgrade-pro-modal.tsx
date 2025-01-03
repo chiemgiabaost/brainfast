@@ -12,7 +12,7 @@ import {
 import { useProStore } from '@/stores/pro-store';
 import SubscriptionButton from '../subscription-button'
 interface UpgradeProModalProps {
-  isProPLan: boolean;
+  isProPLan: true;
 }
 const UpgradeProModal: React.FC<UpgradeProModalProps> = ({isProPLan}) => {
   const {isOpen, handleCloseProModal} = useProStore();
