@@ -46,6 +46,7 @@
     "next-themes": "^0.2.1",
     "openai": "^4.4.0",
     "postcss": "8.4.29",
+    "project-ai-sass": "file:",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-hook-form": "^7.51.0",
