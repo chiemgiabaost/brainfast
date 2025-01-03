@@ -24,9 +24,7 @@ const Hero = () => {
           </div>
           <div className="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
             <div className="hidden sm:mb-8 sm:flex sm:justify-center">
-              <div className="rounded-full px-3 py-1 text-sm leading-6 text-gray-400 border">
-                Brainfast - Unleash the Power of AI
-              </div>
+              
             </div>
             <div className="text-center">
               <h1 className="text-4xl leading-8 font-bold tracking-tight text-white sm:text-6xl">
@@ -41,9 +39,7 @@ const Hero = () => {
                   />
                 </span>
               </h1>
-              <p className="mt-6 text-lg leading-8 text-gray-300">
-                All-in-one platform to generate AI content and start making money in minutes.
-              </p>
+              
               <div className="mt-10 lg:flex items-center justify-center gap-x-6">
                 <Link href="/dashboard">
                   <Button className=" text-white gradient-btn w-full lg:w-auto mb-8 lg:mb-0" size="lg">
