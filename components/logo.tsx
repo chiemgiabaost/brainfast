@@ -14,7 +14,7 @@ const Logo: React.FC<LogoProps> = ({className}) => {
         <Link href={'/dashboard'}>
         <BrainCircuit color='#0ea5e9' size={40}/>
         <span className={cn('ml-2 font-bold text-3xl', poppins.className)}>
-            BrainFast
+            
         </span>
         </Link>
     </div>
